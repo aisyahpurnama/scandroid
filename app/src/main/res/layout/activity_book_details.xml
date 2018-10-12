@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff9f1a"
+    android:orientation="vertical"
+    tools:context=".BookDetails">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul"
+        android:textColor="@android:color/white"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/isi_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Isi Judul"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/ringkasan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ringkasan"
+        android:textColor="@android:color/white"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/isi_ringkasan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Isi Ringkasan"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/posisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Posisi"
+        android:textColor="@android:color/white"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/isi_posisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Isi Posisi"
+        android:textColor="@android:color/white"
+        android:typeface="monospace" />
+</LinearLayout>
